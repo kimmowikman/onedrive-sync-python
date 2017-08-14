@@ -1,0 +1,2 @@
+# onedrive-sync-python
+Python script for syncing files from OneDrive. This script is useful for example when using Linux or having a NAS device without NTFS. Syncing is only one-way: from OneDrive to local. You need to fetch your own application ID and user secret: https://dev.onedrive.com/app-registration.htm. You need to also add dummy callback URL for authentication; Add platform WEB; redirect URL http://localhost:8888/login.
